@@ -1,11 +1,28 @@
-# React + Vite
+## 🌍 TravelStory : Capture Travel Memories
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that allows users to capture, manage, and relive their travel experiences. The platform provides an intuitive interface to add, view, edit, and search travel stories with image uploads and advanced filtering.
 
-Currently, two official plugins are available:
+## *⚙️ Tech Stack*
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Image Handling:** Multer
+- **Styling:** Bootstrap 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+-	Add and manage personal travel stories
+- Upload images for each travel experience
+- Edit and delete existing stories
+- Search travel stories by keywords
+- Filter stories by travel date
+- Mark stories as favorites
+- Fully responsive user interface
+
+## 📌 Project Highlights
+- RESTful API architecture
+- Efficient image upload handling using Multer
+- Clean and modular React component structure
+- User-friendly and interactive design
 
 To run frontend:
 * cd frontend
@@ -16,4 +33,4 @@ To run backend:
 * cd backend
 * npm start
 
-Run MongoDb to start backend
+## Developed by Sowjanya K
