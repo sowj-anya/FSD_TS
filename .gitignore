@@ -3,9 +3,7 @@
 # =====================
 .env
 .env.local
-.env.*.local
-.env.*
-!.env.example
+.env.*.localz
 
 # =====================
 # Logs
@@ -23,6 +21,8 @@ lerna-debug.log*
 # =====================
 node_modules/
 **/node_modules/
+frontend/travel-story-app/node_modules/
+backend/node_modules/
 
 # =====================
 # Build outputs (Netlify will generate these)
